@@ -58,7 +58,7 @@ def parse_args(args):
     options = {
         't_bins': 24,
         'E_bins': 16,
-        'dt_bins': 24,
+        'dt_bins': 16,
         'E_min': 500.0,
         'E_max': 7000.0,
         'normalize': True

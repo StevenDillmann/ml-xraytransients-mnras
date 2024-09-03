@@ -1,0 +1,5 @@
+matplotlib==3.9.2
+numpy==1.23.5
+pandas==2.2.2
+scikit_learn==1.5.1
+tensorflow_macos==2.12.0
