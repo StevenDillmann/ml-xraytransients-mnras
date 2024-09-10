@@ -9,7 +9,7 @@
 ## Description
 This is the official repository and implementation associated with the paper **Data Driven Discovery of X-ray Transients with Machine Learning: A Representation Learning Approach for Anomaly Detection (Dillmann et al. 2024)**.
 
-![image](assets/flowchart_pipeline.png)
+![Pipeline Flowchart](assets/flowchart_pipeline.png)
 
 We present novel event file representations and the first representation learning based anomaly detection approach for the discovery of high-energy transients.
 This involves extracting features from the representations using principal component analysis or an autoencoder followed by dimensionality reduction and clustering. By associating these clusters with previously identified transients and performing nearest-neighbor searches, we create a catalog of X-ray transient candidates. This novel transient detection method for time-domain high-energy astrophysics is applicable to data from other high-energy observatories like XMM-Newton, Swift XRT, eROSITA and the Einstein Probe.
@@ -38,7 +38,7 @@ We provide the project datasets in this [Google Drive Folder](https://drive.goog
 
 ### `datasets` Folder
 
-This folder includes the input data for the transient detection pipeline and additional event file properties.
+This folder includes the input data for the transient detection pipeline and additional event file properties. Include these files in the `ml-xraytransients/datasets` directory, if you want to reproduce the published results from scratch.
 
 - `eventfiles_table.csv`: A table including all event files used in this project. To filter for a single eventfile use the *obsreg_id* column. 
 - `properties_table.csv`: A table listing the variability and hardness ratio properties for all eventfiles, retrieved from the Chandra Source Catalog.
@@ -48,7 +48,7 @@ This folder includes the input data for the transient detection pipeline and add
 
 ### `output/embeddings` Folder
 
-This folder includes the final output data of the transient detection pipeline with the hyperparameters outlined in the paper. Include these files in the `output/embeddings` directory, if you want to use the embeddings described in the paper. 
+This folder includes the final output data of the transient detection pipeline with the hyperparameters outlined in the paper. Include these files in the `ml-xraytransients/output/embeddings` directory, if you want to use the embedding results described in the paper. 
 
 - `paper2DAE_embedding.csv`: The t-SNE embedding of the autoencoder features of the $E-t$ Maps. 
 - `paper2DAE_clusters.csv`: The t-SNE embedding of the autoencoder features of the $E-t$ Maps (including DBSCAN clusters).
@@ -78,6 +78,7 @@ To setup the project environment and install the corresponding dependencies, use
 ```bash
 conda create --name [new_env] python=3.9
 conda activate [new_env]
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
@@ -174,7 +175,7 @@ This project is licensed under the [MIT License](https://opensource.org/license/
 ## Project Status
 The project is in a state ready for submission. All essential features have been implemented, and the codebase is stable. Future updates may focus on minor improvements, bug fixes, or optimizations.
 
-## Citation
+<!-- ## Citation
 @article{Dillmann_2024,
    title={Data Driven Discovery of X-ray Transients with Machine Learning: A Representation Learning Approach for Anomaly Detection},
    volume={531},
@@ -184,11 +185,19 @@ The project is in a state ready for submission. All essential features have been
    number={4},
    journal={Monthly Notices of the Royal Astronomical Society},
    publisher={Oxford University Press (OUP)},
-   author={Dillmann, Steven and Martinez-Galarza, Rafael and Soria},
+   author={Dillmann, Steven and Martínez-Galarza, Rafael and Soria, Roberto and Di Stefano, Rosanne and Kashyap, Vinay L.},
    year={2024},
-   month=jun, pages={XXXX–XXXX} }
+   month=jun, pages={XXXX–XXXX} } -->
 
 ## Authors and Acknowledgment
-This project is maintained by [Steven Dillmann](https://www.linkedin.com/in/stevendillmann/).
+Many thanks to the following contributors:
+
+- Steven Dillmann, Stanford University
+- Rafael Martínez-Galarza, Center for Astrophysics | Harvard & Smithsonian
+- Rosanne Di Stefano, Center for Astrophysics | Harvard & Smithsonian
+- Roberto Soria, Italian National Institute for Astrophysics (INAF)
+- Vinay Kashyap, Center for Astrophysics | Harvard & Smithsonian
+
+This project is maintained by [Steven Dillmann](https://www.linkedin.com/in/stevendillmann/). 
 
 1st September 2024
