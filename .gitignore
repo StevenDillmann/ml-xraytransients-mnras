@@ -398,6 +398,8 @@ FodyWeavers.xsd
 *.sln.iml
 
 archive
-datasets
-embeddings
+datasets/*
+!datasets/
+!datasets/bonafide_transients.json
 output*
+
