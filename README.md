@@ -1,5 +1,5 @@
 
-# Representation Learning for Time-domain High-energy Astrophysics
+# Representation Learning for Time-domain High-Energy Astrophysics
 
 [![arXiv](https://img.shields.io/badge/arXiv-2412.01150-red.svg?style=flat)](https://arxiv.org/abs/2412.01150)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
