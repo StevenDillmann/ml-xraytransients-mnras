@@ -1,13 +1,13 @@
 
-# Data Driven Discovery of X-ray Transients with Machine Learning: A Representation Learning Approach for Anomaly Detection
+# Representation Learning for Time-domain High-energy Astrophysics
 
-[![arXiv](https://img.shields.io/badge/arXiv-2101.00001-red.svg?style=flat)](https://arxiv.org/abs/2101.00001)
+[![arXiv](https://img.shields.io/badge/arXiv-2412.01150-red.svg?style=flat)](https://arxiv.org/abs/2412.01150)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
 
 ## Description
-This is the official repository and implementation associated with the paper **Data Driven Discovery of X-ray Transients with Machine Learning: A Representation Learning Approach for Anomaly Detection (Dillmann et al. 2024)**.
+This is the official repository and implementation associated with the paper **Representation learning for time-domain high-energy astrophysics: Discovery of extragalactic fast X-ray transient XRT 200515 (Dillmann et al. 2024)**.
 
 ![Pipeline Flowchart](assets/flowchart_pipeline.png)
 
@@ -175,19 +175,21 @@ This project is licensed under the [MIT License](https://opensource.org/license/
 ## Project Status
 The project is in a state ready for submission. All essential features have been implemented, and the codebase is stable. Future updates may focus on minor improvements, bug fixes, or optimizations.
 
-<!-- ## Citation
+## Citation
 @article{Dillmann_2024,
-   title={Data Driven Discovery of X-ray Transients with Machine Learning: A Representation Learning Approach for Anomaly Detection},
-   volume={531},
+   title={Representation learning for time-domain high-energy astrophysics: Discovery of extragalactic Fast X-ray Transient XRT 200515},
+   <!-- volume={531}, -->
    ISSN={1365-2966},
    url={http://dx.doi.org/10.1093/mnras/stae1450},
-   DOI={10.1093/mnras/stae1450},
-   number={4},
+   DOI={10.1093/mnras/stae2808},
+   <!-- number={4}, -->
    journal={Monthly Notices of the Royal Astronomical Society},
    publisher={Oxford University Press (OUP)},
-   author={Dillmann, Steven and Martínez-Galarza, Rafael and Soria, Roberto and Di Stefano, Rosanne and Kashyap, Vinay L.},
+   author={Dillmann, Steven and Martínez-Galarza, Juan Rafael and Soria, Roberto and Di Stefano, Rosanne and Kashyap, Vinay L.},
    year={2024},
-   month=jun, pages={XXXX–XXXX} } -->
+   month=dec} 
+   <!-- pages={XXXX–XXXX} } -->
+
 
 ## Authors and Acknowledgment
 Many thanks to the following contributors:
@@ -200,4 +202,4 @@ Many thanks to the following contributors:
 
 This project is maintained by [Steven Dillmann](https://www.linkedin.com/in/stevendillmann/). 
 
-1st September 2024
+2nd January 2025
