@@ -176,19 +176,32 @@ This project is licensed under the [MIT License](https://opensource.org/license/
 The project is in a state ready for submission. All essential features have been implemented, and the codebase is stable. Future updates may focus on minor improvements, bug fixes, or optimizations.
 
 ## Citation
+@article{Parker_2024,
+   title={AstroCLIP: a cross-modal foundation model for galaxies},
+   volume={531},
+   ISSN={1365-2966},
+   url={http://dx.doi.org/10.1093/mnras/stae1450},
+   DOI={10.1093/mnras/stae1450},
+   number={4},
+   journal={Monthly Notices of the Royal Astronomical Society},
+   publisher={Oxford University Press (OUP)},
+   author={Parker, Liam and Lanusse, Francois and Golkar, Siavash and Sarra, Leopoldo and Cranmer, Miles and Bietti, Alberto and Eickenberg, Michael and Krawezik, Geraud and McCabe, Michael and Morel, Rudy and Ohana, Ruben and Pettee, Mariel and Régaldo-Saint Blancard, Bruno and Cho, Kyunghyun and Ho, Shirley},
+   year={2024},
+   month=jun, pages={4990–5011} }
+
+
 @article{Dillmann_2024,
    title={Representation learning for time-domain high-energy astrophysics: Discovery of extragalactic Fast X-ray Transient XRT 200515},
-   <!-- volume={531}, -->
+   volume={531},
    ISSN={1365-2966},
    url={http://dx.doi.org/10.1093/mnras/stae1450},
    DOI={10.1093/mnras/stae2808},
-   <!-- number={4}, -->
+   number={4},
    journal={Monthly Notices of the Royal Astronomical Society},
    publisher={Oxford University Press (OUP)},
    author={Dillmann, Steven and Martínez-Galarza, Juan Rafael and Soria, Roberto and Di Stefano, Rosanne and Kashyap, Vinay L.},
    year={2024},
-   month=dec} 
-   <!-- pages={XXXX–XXXX} } -->
+   month=dec, pages={4990–5011} }
 
 
 ## Authors and Acknowledgment
