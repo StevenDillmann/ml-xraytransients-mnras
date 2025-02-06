@@ -9,7 +9,7 @@
 
 
 ## Description
-This is the official repository and implementation associated with the paper **Representation learning for time-domain high-energy astrophysics: Discovery of extragalactic fast X-ray transient XRT 200515 (Dillmann et al. 2024)**.
+This is the official repository and implementation associated with the paper **Representation learning for time-domain high-energy astrophysics: Discovery of extragalactic fast X-ray transient XRT 200515 (Dillmann et al. 2024)**: [doi.org/10.1093/mnras/stae2808](https://doi.org/10.1093/mnras/stae2808)
 
 ![Pipeline Flowchart](assets/flowchart_pipeline.png)
 
