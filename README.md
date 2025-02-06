@@ -1,8 +1,10 @@
 
 # Representation Learning for Time-domain High-Energy Astrophysics
 
+[![DOI](https://img.shields.io/badge/doi%20-%2010.1093%2Fmnras%2Fstae2808%20-%20green)](https://doi.org/10.1093/mnras/stae2808)
 [![arXiv](https://img.shields.io/badge/arXiv-2412.01150-red.svg?style=flat)](https://arxiv.org/abs/2412.01150)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 
 
 
