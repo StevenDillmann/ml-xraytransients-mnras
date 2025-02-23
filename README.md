@@ -180,20 +180,19 @@ The project is in a state ready for submission. All essential features have been
 ## Citation
 
 ```
-@article{Dillmann_2024,
+@article{Dillmann2425,
     author = {Dillmann, Steven and Martínez-Galarza, Juan Rafael and Soria, Roberto and Stefano, Rosanne Di and Kashyap, Vinay L},
     title = {Representation learning for time-domain high-energy astrophysics: Discovery of extragalactic fast X-ray transient XRT 200515},
     journal = {Monthly Notices of the Royal Astronomical Society},
     publisher={Oxford University Press (OUP)},
+    year = 2025,
+    month = feb,
     volume = {537},
     number = {2},
     pages = {931-955},
-    year = {2024},
-    month = {12},
     issn = {0035-8711},
     doi = {10.1093/mnras/stae2808},
     url = {https://doi.org/10.1093/mnras/stae2808},
-    eprint = {https://academic.oup.com/mnras/article-pdf/537/2/931/61271226/stae2808.pdf}
 }
 ```
 
